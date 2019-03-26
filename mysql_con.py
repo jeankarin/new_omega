@@ -2,7 +2,7 @@ import MySQLdb
 from tqdm import tqdm
 
 def InsertData(sql):
-	con = MySQLdb.connect('192.168.137.131','euromillon_user','Inicio15','EUROMILLON_TEST_DB')
+	con = MySQLdb.connect('172.17.0.2','euromillon_user','Inicio15','EUROMILLON_DB')
 	cur = con.cursor()
 
 	for i in tqdm(range(len(sql))):
