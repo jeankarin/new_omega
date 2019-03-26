@@ -1,6 +1,6 @@
 #!C:\Python27
 """
-Nombre: Juan A. Horrillo
+Nombre: JeanKarin
 Fecha: 17/03/2019
 """
 
